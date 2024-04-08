@@ -54,7 +54,7 @@ if (isset($_GET['email'])) {
 
         echo "<hr>$answer<hr>";
         echo "<hr>$new_password<hr>";
-        echo "<hr>".$_SESSION['member_id'].""<hr>";
+        echo "<hr>".$_SESSION['member_id']."<hr>";
 
        if($result_x)
        {
@@ -64,6 +64,6 @@ if (isset($_GET['email'])) {
        {
            echo "Password Reset Failed"; //redirect to reset failed page
        }
-   }
+  }
 
 ?>
